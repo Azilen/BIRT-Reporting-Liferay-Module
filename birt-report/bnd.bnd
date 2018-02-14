@@ -1,0 +1,9 @@
+Bundle-Name: birt-report
+Bundle-SymbolicName: com.azilen.birt.report
+Bundle-Version: 1.0.0
+Export-Package: com.azilen.birt.report.constants
+-metatype :*
+
+
+
+

@@ -1,0 +1,72 @@
+.sender-head{
+    color: #8b8b8b;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    font-size: 16pt;
+}
+.form-control{
+	border-width: 1px 1px 1px 1px;
+}
+
+.form-control:focus{
+	box-shadow:none;
+	color:#8b8b8b;
+}
+
+.btn-report{
+	padding: 12px 32px;
+    position: relative;
+    margin-top: 24px; 
+    background-color: #bf0707;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 0.4px;
+    background-image: -moz-linear-gradient( 0deg, rgb(241,82,76) 0%, rgb(237,55,113) 100%);
+   	background-image: -webkit-linear-gradient( 0deg, rgb(241,82,76) 0%, rgb(237,55,113) 100%);
+   	background-image: -ms-linear-gradient( 0deg, rgb(241,82,76) 0%, rgb(237,55,113) 100%);
+   	border: transparent;
+}
+
+.btn-report:focus, .btn-report:hover {
+   color: rgb(237,55,113);
+   background: transparent;
+   border: 1px solid rgb(237,55,113);
+}
+
+.text-warning {
+    color: rgb(237,55,113);
+}
+
+.sender-form{
+   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+   padding: 20px;
+   border-radius: 4px;
+}
+
+.sender-form label.control-label{
+   font-size: 14px;
+   letter-spacing: 0.4px;
+   line-height: 26px;
+   color: #8b8b8b;
+   font-family:  sans-serif;
+}
+
+.sender-form input.form-control{
+	border-radius: 4px;
+	font-size: 14px;
+    font-family: sans-serif;
+    color: #3d3f60;
+    letter-spacing: 0.4px;
+    border-color:#cccccc;
+}
+
+.sender-form select.form-control{
+	border-radius: 4px;
+	border-color:#cccccc;
+	color:#8b8b8b;
+}
+
+.sender-form select.form-control:focus{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3E%3Cpath%20d='M347.913%20199.336l-81.538-85c-5.413-5.642-14.188-5.642-19.6%200l-81.538%2085c-8.73%209.1-2.548%2024.664%209.8%2024.664h163.077c12.348%200%2018.53-15.563%209.8-24.664zM165.236%20312.664l81.538%2085c5.412%205.642%2014.188%205.642%2019.6%200l81.538-85c8.73-9.1%202.548-24.664-9.8-24.664H175.035c-12.347%200-18.53%2015.563-9.8%2024.664z'%20fill='%23869CAD'%3E%3C/path%3E%3C/svg%3E");
+}
